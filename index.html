@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Who Is Jesus? | BfA Magazine Summer 2013 Issue</title>
+    <meta name="author" content="Jonathan Tien ">
+    <meta name="description" content="A proof of concept digital magazine for Bibles for America">
+    <link rel="stylesheet" href="../curtain.css">
+    <link rel="stylesheet" href="base.css">
+</head>
+
+<body>
+
+    <ol class="curtains">
+
+    </ol>
+
+</body>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="curtain/curtain.js"></script>
+<script>
+    $(function(){
+       $('.curtains').curtain({
+           scrollSpeed: 300,
+           controls: '.menu',
+           curtainLinks: '.curtain-links',
+           nextSlide: function(){
+            console.log("ok");
+           }
+       });
+    });
+</script>
+</body>
+</html>
